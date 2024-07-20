@@ -1,0 +1,35 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true
+  },
+  // exclude files from search & files explorer
+  "files.exclude": {
+    "**/.git": true
+  },
+  // code formatter
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": ["source.fixAll"],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.suggest.showKeywords": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.suggest.showKeywords": false
+  },
+  // settings for eslint extension
+  "eslint.enable": true,
+  "eslint.trace.server": "off",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "typescript.validate.enable": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true
+}
